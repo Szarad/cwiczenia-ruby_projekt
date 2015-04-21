@@ -46,6 +46,8 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'byebug'
   gem 'factory_girl_rails'
+  gem 'capybara-webkit', ">= 1.2.0"
+  gem 'selenium-webdriver'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
