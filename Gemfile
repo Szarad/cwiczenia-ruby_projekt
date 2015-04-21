@@ -41,7 +41,7 @@ gem "haml-rails", "~> 0.9"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec'
-  gem 'simplecov', :require=>false
+  gem 'simplecov', :require=>false 
   gem 'rspec-rails','~>3.0'
   gem 'shoulda-matchers'
   gem 'byebug'
